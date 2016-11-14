@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="591.0" prefWidth="824.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.javafx.jfxclient.example.controller.TabPaneDetacherDemoController">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="40.0">
+         <children>
+            <Label text="Detachable Tabs Demo">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label prefHeight="82.0" prefWidth="260.0" text="Drag the title of a tab and drop it at the desired position." textAlignment="CENTER" wrapText="true" />
+         </children>
+      </HBox>
+      <TabPane fx:id="demoTabPane" prefHeight="361.0" prefWidth="784.0" tabClosingPolicy="UNAVAILABLE" VBox.vgrow="ALWAYS">
+        <tabs>
+          <Tab text="Tab #1">
+            <content>
+                  <VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0">
+                     <children>
+                        <Label alignment="CENTER" text="Content of Tab #1">
+                           <font>
+                              <Font name="System Bold" size="60.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+            </content>
+          </Tab>
+            <Tab text="Tab #2">
+               <content>
+                  <VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0">
+                     <children>
+                        <Label alignment="CENTER" text="Content of Tab #2">
+                           <font>
+                              <Font name="System Bold" size="60.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </content>
+            </Tab>
+            <Tab text="Tab #3">
+               <content>
+                  <VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0">
+                     <children>
+                        <Label alignment="CENTER" text="Content of Tab #3">
+                           <font>
+                              <Font name="System Bold" size="60.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </content>
+            </Tab>
+            <Tab text="Tab #4">
+               <content>
+                  <VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0">
+                     <children>
+                        <Label alignment="CENTER" text="Content of Tab #4">
+                           <font>
+                              <Font name="System Bold" size="60.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </content>
+            </Tab>
+            <Tab text="Tab #5">
+               <content>
+                  <VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0">
+                     <children>
+                        <Label alignment="CENTER" text="Content of Tab #5">
+                           <font>
+                              <Font name="System Bold" size="60.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </content>
+            </Tab>
+            <Tab text="Tab #6">
+               <content>
+                  <VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0">
+                     <children>
+                        <Label alignment="CENTER" text="Content of Tab #6">
+                           <font>
+                              <Font name="System Bold" size="60.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </content>
+            </Tab>
+            <Tab text="Tab #7">
+               <content>
+                  <VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0">
+                     <children>
+                        <Label alignment="CENTER" text="Content of Tab #7">
+                           <font>
+                              <Font name="System Bold" size="60.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
