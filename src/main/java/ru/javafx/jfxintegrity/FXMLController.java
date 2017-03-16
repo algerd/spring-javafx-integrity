@@ -17,4 +17,5 @@ public @interface FXMLController {
 	String bundle() default "";
     boolean loadable() default true;
     String title() default "";
+    boolean isRefControllerInFxml() default true;
 }
